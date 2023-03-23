@@ -30,9 +30,6 @@ def add_todo(date,task):
     print("Задача", task, "добавлена на дату", date)
 
 
-def count_letter(offer):
-    offer = input("Введите список")
-
 while run:
     command = input("Введите команду: ")
     if command == 'help':
