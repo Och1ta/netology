@@ -1,8 +1,10 @@
 import telebot
 from random import choice
+from dotenv import load_dotenv
+import os
 
-token = ''
-
+load_dotenv()
+token = os.getenv("TOKEN")
 bot = telebot.TeleBot(token)
 
 HELP = """
