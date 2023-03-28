@@ -21,7 +21,7 @@ tasks = {
 run = True
 
 
-def add_todo(date,task):
+def add_todo(date, task):
     if date in tasks:
         tasks[date].append(task)
     else:
